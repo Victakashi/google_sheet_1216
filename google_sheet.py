@@ -15,6 +15,6 @@ sa = gspread.service_account()
 sh = sa.open("MZ_bot")
 wks = sh.worsheet("MZ_1")
 
-wks.update('A3', 'Good')
+wks.update_cell(1,1, "Good")
 
 
