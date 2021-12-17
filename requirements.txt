@@ -10,3 +10,4 @@ pyshorteners
 scipy
 gspread
 oauth2client
+json
