@@ -6,7 +6,7 @@ scope = ['https://www.googlapis.com/feeds',
          'https://www.googleapis.com/auth/drive.file',
          'https://www.googlapis.com/auth/drive']
 
-gc = gspread.service_account(filename= "Python Sheet API Key.json")
+gc = gspread.service_account(filename= "Python_Sheet_API_1_Key.json")
 
 #sheet = gc.open_by_key('15g-2coTEOJ5NzERQHg6N-8fKyHnUGo-g2cxX-xyTPv8').sgeet1
 sheet = gc.open('MZ_bot').sgeet1
