@@ -1,5 +1,5 @@
 
-#from oauth2client.service_account import ServiceAccountCredentials
+from oauth2client.service_account import ServiceAccountCredentials
 import gspread
 scope = ['https://www.googlapis.com/feeds',
          'https://www.googlapis.com/auth/spreadsheets',
@@ -8,25 +8,11 @@ scope = ['https://www.googlapis.com/feeds',
 
 gc = gspread.service_account(filename= "Python Sheet API Key.json")
 
-sheet = gc.open("MZ_bot").worksheet("MZ_1")
-sheet.update_cell(1,1,"Hello world123")
+sheet = gc.open_by_key('15g-2coTEOJ5NzERQHg6N-8fKyHnUGo-g2cxX-xyTPv8').worksheet("MZ_1")
+sheet.update_cell(1,1,"Hello world121701")
 
 
 
-# client = gspread.authorize(creds)
 
-# abc = client.open("MZ_bot").worksheet("MZ_1")
-# abc.update_cell(1,1,"Hello world")
-
-
-
-#sa = gspread.service_account()
-
-
-
-# sh = sa.open("MZ_bot")
-# wks = sh.worsheet("MZ_1")
-
-# wks.update_cell('A3', 'Good')
 
 
