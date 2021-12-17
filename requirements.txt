@@ -11,3 +11,5 @@ scipy
 gspread
 oauth2client
 json
+os
+pandas
