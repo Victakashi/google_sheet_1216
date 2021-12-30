@@ -1,7 +1,7 @@
 
 import gspred
 
-gc - gspread.service_account(filename = 'mzbotgoogledriver.json')
+gc = gspread.service_account(filename = 'mzbotgoogledriver.json')
 
 #gspread.service_account(filename='/home/docs/.config/gspread/service_account.json', scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'])
 
