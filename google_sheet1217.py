@@ -1,14 +1,14 @@
 
 import gspred
 
-#gc = gspread.service_account(filename = 'mzbotgoogledriver.json')
+gc = gspread.service_account(filename = 'mzbotgoogledriver.json')
 
-gc = gspread.service_account(filename='mzbotgoogledriver.json', scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'])
+#gc = gspread.service_account(filename='mzbotgoogledriver.json', scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'])
 
 
 sheet = gc.open_by_key("15g-2coTEOJ5NzERQHg6N-8fKyHnUGo-g2cxX-xyTPv8")
 
-worksheet = sh.sheet1
+worksheet = sheet.sheet1
 
 worksheet.update_cell(1,1, "Hello world888999993")
 
