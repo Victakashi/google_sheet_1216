@@ -6,8 +6,8 @@ import gspred
 #gc = gspread.service_account(filename='mzbotgoogledriver.json', scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'])
 
 gc = gspread.oauth(
-    credentials_filename='/alternative/path/mzbotgoogledriver.json',
-    authorized_user_filename='/alternative/path/authorized_user.json',
+    credentials_filename='mzbotgoogledriver.json',
+    authorized_user_filename='mzbotgoogledriver.json',
     )
 
 
