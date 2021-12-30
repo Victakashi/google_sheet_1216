@@ -3,7 +3,13 @@ import gspred
 
 #gc = gspread.service_account(filename = 'mzbotgoogledriver.json')
 
-gc = gspread.service_account(filename='mzbotgoogledriver.json', scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'])
+#gc = gspread.service_account(filename='mzbotgoogledriver.json', scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'])
+
+gc = gspread.oauth(
+    credentials_filename='/alternative/path/mzbotgoogledriver.json',
+    authorized_user_filename='/alternative/path/authorized_user.json',
+    )
+
 
 
 sheet = gc.open_by_key("15g-2coTEOJ5NzERQHg6N-8fKyHnUGo-g2cxX-xyTPv8")
