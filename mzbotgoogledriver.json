@@ -1,12 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "mzbot123001",
-  "private_key_id": "a15904499eda2548aba8d03f242e80ed3704f11b",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCyrGWaqIf3IBca\n/oQFFuvVWD5d82AlQiHMh/Yp6/mIogWXgtCq988P6Pz3A7Okn/cV3BxkLeYaovLp\nPzKARMA5UNWh6+8ZsOZdQUnxINIogCZgZl3++FUCrYSw6blFBtDypKPwxeNT1FTW\nnCwt3FHvo0/8vHFk8Re157IDrrNJwyb8HYWO8JBtoXvVKpP/PLQ3OcO2i2HV6Pql\ngJV9FjIsJeub/ZavYKSK0CimdyfvAwmSLiTKpMRXg7Ua1gAnxNTgeOia0vPMOfGl\nlw8LndGsTQRV8zDQWBbskOXBmRFHEUGZnn9tX09kx37KoC1kIZEeGt2tP8Cw376L\nAYN7wwCNAgMBAAECggEAAtGanRTtZ4jA0eWehmhdFPBPtD088NGJMCLGpNTVdWJI\nUCKERrzimM0Tl+pdyOoszyePZhrdmgwkj2lLvhTM6zU7LZMH4mH1UcF62GbsvIQA\nYahzxqw7G8VKMN1Qatuc68W3qrqAfTJ+Gnr7wnHK9CAhiKqeElowW30PL0+FV2j0\nhS7WcBB87bxEGuKaU6cDYjMtVsldxQktPN39d5KA96zZf/U1ZdRDadSE826Hp/ug\np1BPkra/ASQ8/TffU72dIYRExTSXPXlZgW0LeKANhgLZpAakijUeiktzGRcNosmV\nd+fCGU9DKzhv82UrP4ZwIat17VT5aeaJE1mINO2UkQKBgQD35gJCi1yALou2FyPe\nkS8xM19DKCzj4Z7Oh6PbeZm2JagR0tD/oFw2+1957dMTkefhZsD6GuL9IINsBqaz\nXCYqge7eLqgq3ktHN1MJRjiAGOmaU56eDz0bBxZYgMZt+FTNnXgIXJFuDOf7i6L2\n3BHj4w/Wdoo1+aRiGnZ+OufDsQKBgQC4gzsm5OTi+6sdtO/wUQ+gzGAoDB7tRpGe\nzrewceH90+b59btzdN2eQL1udcB4WbwF9AN9QXlsnsocWy1+XtAydM6YwkjXO6g6\nXSCeydN2/TUoTSjqxc/Lx5qZ/rI6h1yrvUkmJRR+U8gyGDr5ksPka1LEfrlRohha\nGF66HbANnQKBgQCJsm5g7i4kWTZrn7Dh6P0wtBtfH0rIDcP7bmZ6+7GA9qvDsrk6\ntKVkOP7QqGTNgwctMblRc2vQNKYrdApWqIHerKu1KG9q2G0yEq4CAcpShQQFIBuE\nKmzDvY0Q/f66iOz6BVTuOBTj7zFQjUCpJJafYbmjY9bjolZH0/ErrqacEQKBgQC0\n/Nzf+PRfhhfCawJUy162DuNfRQxtGKSsjv71z6+qyNmvZJA7322n1r86A70JEJRz\njniBu+C8YEHGcNV+OMimRZeFlkXXAgixPzpJJ5YLCLLE1nMFX4XF0QRge8odyTto\npqKDDSo+BDbClKv8tS779x5X6ioj3glfDrqUe5x+rQKBgQCVfyOK99Rv06H+eQTm\n1JaR7G1dTcVlNlNBh9l8ONT75f2FmD6Q8DEQ5W/XguRzYvelOm3mts673UcY0kx2\ntALlsu9oecJ5xAAcGAunByFujOFgvCvsUyVeoFnGKZpSBBH33cgFUz+RtzRSNXP+\ncOl+pr+7G3P/w1KA9rnOau+feg==\n-----END PRIVATE KEY-----\n",
-  "client_email": "mzbot1230@mzbot123001.iam.gserviceaccount.com",
-  "client_id": "116614935263166918096",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mzbot1230%40mzbot123001.iam.gserviceaccount.com"
-}
+{"web":{"client_id":"645901038488-edlj1503f2cnno1cmhkjffu3hidvp9dc.apps.googleusercontent.com","project_id":"mzbot123001","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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"}}
