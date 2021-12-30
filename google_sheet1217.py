@@ -1,11 +1,11 @@
 
 import gspred
 
-gc - gapread.service_account(filename = "mzbotgoogledriver.json")
+gc - gspread.service_account(filename = "mzbotgoogledriver.json")
 sheet = gc.open_by_key("15g-2coTEOJ5NzERQHg6N-8fKyHnUGo-g2cxX-xyTPv8")
 
 #worksheet = sh.MZ_1
-sheet.update_cell(1,1,"Hello world888999993")
+sheet.update_cell(1,1, "Hello world888999993")
 
 
 # from oauth2client.service_account import ServiceAccountCredentials
