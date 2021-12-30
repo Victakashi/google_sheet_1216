@@ -3,7 +3,13 @@ import gspread
 
 #gc = gspread.service_account(filename = "mzbot123001.json")
 
-gc = gspread.service_account(filename='mzbot123001.json', scopes=['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive'])
+scope = ['https://www.googlapis.com/feeds',
+         'https://www.googlapis.com/auth/spreadsheets',
+         'https://www.googleapis.com/auth/drive.file',
+         'https://www.googlapis.com/auth/drive']
+
+
+gc = gspread.service_account(filename=　'mzbot123001.json')
 
 # gc = gspread.oauth(
 #     credentials_filename='mzbotgoogledriver.json',
