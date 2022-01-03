@@ -8,6 +8,7 @@ SnowNLP
 emoji
 pyshorteners
 scipy
+gspread
+oauth2client
 gspread==5.1.1
 oauth2client
-pandas
