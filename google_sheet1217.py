@@ -7,7 +7,7 @@ worksheet = sheet.sheet1
 # worksheet.update_cell(1,1, "Hello world888999993")
 # worksheet.update_cell(1,2, "Hello world8889922293")
 # worksheet.update_cell(1,3, "Hello world85559993")
-worksheet.batch_clear(["A1:B1", "C2:E2", "2"])
+worksheet.batch_clear(["A1:B1"])
 
 
 
