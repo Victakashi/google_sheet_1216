@@ -10,6 +10,16 @@ Line Bot聊天機器人
 第三章 互動回傳功能
 推播push_message與回覆reply_message
 """
+
+###Google sheet
+import gspread
+
+gc = gspread.service_account(filename = "mzbot123001.json")
+sheet = gc.open_by_key("15g-2coTEOJ5NzERQHg6N-8fKyHnUGo-g2cxX-xyTPv8")
+worksheet = sheet.worksheet("mz")
+###Google sheet
+
+
 #載入LineBot所需要的套件
 from flask import Flask, request, abort
 
@@ -22,16 +32,6 @@ from linebot.exceptions import (
 from linebot.models import *
 import re
 app = Flask(__name__)
-
-
-###Google sheet
-import gspread
-
-gc = gspread.service_account(filename = "mzbot123001.json")
-sheet = gc.open_by_key("15g-2coTEOJ5NzERQHg6N-8fKyHnUGo-g2cxX-xyTPv8")
-worksheet = sheet.worksheet("mz")
-###Google sheet
-
 
 # 必須放上自己的Channel Access Token
 line_bot_api = LineBotApi('COe9IVtYYXNq4gvq1UAkylEeLHRaqNqYjna2zwbi4CQ8QFNa6Wn3M/fhwp83As7qxc1bXI6sNX3HtW9tMMkWy5tf24Qs1XklAQvJAx5f3WkwKlXr2EB9eMWnVpPP3h/FpIDfN74sPCqfkAt2aDdquwdB04t89/1O/w1cDnyilFU=')
